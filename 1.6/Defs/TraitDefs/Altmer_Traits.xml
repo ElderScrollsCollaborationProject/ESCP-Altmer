@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Altmer_Spellwright</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>spellwright</label>
+                <description>This one treats a spell the way a jeweler treats a setting, turning it until every facet sits right. Their mind is quick and their reserves are deep.</description>
+                <statOffsets>
+                    <ESCP_MagickaMax>25</ESCP_MagickaMax>
+                    <GlobalLearningFactor>0.08</GlobalLearningFactor>
+                </statOffsets>
+                <skillGains>
+                    <Intellectual>2</Intellectual>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Altmer_Canon</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Canon of the Crystal Tower</label>
+                <description>Years spent at Crystal Tower left this person with exacting manners and a very long memory for slights. People tend to do as they ask, mostly so the conversation will end.</description>
+                <statOffsets>
+                    <SocialImpact>0.1</SocialImpact>
+                    <NegotiationAbility>0.08</NegotiationAbility>
+                </statOffsets>
+                <skillGains>
+                    <Social>2</Social>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Altmer_Justiciar</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>justiciar</label>
+                <description>Trained to find and remove enemies of the Dominion. They fight with cold patience and do not panic when the plan changes.</description>
+                <statOffsets>
+                    <ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>4</MeleeDodgeChance>
+                    <PainShockThreshold>0.05</PainShockThreshold>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

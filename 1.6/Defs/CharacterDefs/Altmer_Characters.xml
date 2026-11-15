@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Ayrenn</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Altmer_Queen</pawnKind>
+        <faction>ESCP_Faction_Aldmeri_Dominion</faction>
+        <eras>
+            <li>2</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Altmer</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Ayrenn</firstName>
+                <lastName>Aranthal</lastName>
+                <nickname>the Queen</nickname>
+                <gender>Female</gender>
+                <age>112</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(235, 215, 150)</hairColor>
+                <hairDef>Long</hairDef>
+                <headTypeDef>ESCP_HeadMer_Female_Narrow_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Elenwen</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Altmer_Emissary</pawnKind>
+        <faction>ESCP_Faction_Thalmor</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Altmer</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Elenwen</firstName>
+                <lastName>Vanyandil</lastName>
+                <nickname>the Emissary</nickname>
+                <gender>Female</gender>
+                <age>130</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(235, 215, 150)</hairColor>
+                <hairDef>Long</hairDef>
+                <headTypeDef>ESCP_HeadMer_Female_Narrow_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>ESCP_Trait_Altmer_Justiciar</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+</Defs>

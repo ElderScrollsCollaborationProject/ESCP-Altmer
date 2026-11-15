@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CultureDef>
+        <defName>ESCP_Culture_Altmer</defName>
+        <label>Altmer</label>
+        <description>The culture of the Summerset Isles, ordered by lineage, ceremony and the conviction that the world was better before mortals got into it. An Altmer's family name opens more doors than any sword.</description>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <pawnNameMaker>ESCP_Altmer_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>ESCP_Altmer_Namer_Female</pawnNameMakerFemale>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <styleItemTags>
+            <li>
+                <tag>NoBeard</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Urban</tag>
+                <baseWeight>3</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoTattoo</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+        <thingStyleCategories MayRequire="Ludeon.RimWorld.Ideology">
+            <li>
+                <category>Rustic</category>
+                <priority>2</priority>
+            </li>
+        </thingStyleCategories>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerIdeo_Altmer</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerDeity_Altmer</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_DeityTypeMaker_Altmer</deityTypeMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerFestival_Altmer</festivalNameMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_LeaderTitleMaker_Altmer</leaderTitleMaker>
+    </CultureDef>
+
+    <StyleCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Style_Altmer</defName>
+        <label>Altmer</label>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
+        <thingDefStyles />
+    </StyleCategoryDef>
+
+    <RulePackDef>
+        <defName>ESCP_Altmer_Namer_Male</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Altmer_Names_Male] [ESCP_Altmer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Altmer_Names_Male->Names/ESCP_Altmer_Names_Male</li>
+                <li>ESCP_Altmer_Names_Last->Names/ESCP_Altmer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>ESCP_Altmer_Namer_Female</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Altmer_Names_Female] [ESCP_Altmer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Altmer_Names_Female->Names/ESCP_Altmer_Names_Female</li>
+                <li>ESCP_Altmer_Names_Last->Names/ESCP_Altmer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_LeaderTitleMaker_Altmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->Queen of the Dominion</li>
+                <li>r_leaderTitle->Monarch</li>
+                <li>r_leaderTitle->First Emissary</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerIdeo_Altmer</defName>
+        <include>
+            <li>GlobalUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>hyphenPrefix->Auri</li>
+                <li>hyphenPrefix->Aldmeri</li>
+                <li>hyphenPrefix->Sapiarch</li>
+                <li>hyphenPrefix->Gold</li>
+                <li>r_ideoName->The Aldmeri Pantheon</li>
+                <li>r_ideoName->Rites of Auri-El</li>
+                <li>r_ideoName->The Elder Way</li>
+                <li>r_ideoName->The Sapiarchs' Canon</li>
+                <li>r_ideoAdjective->Aldmeri</li>
+                <li>r_ideoAdjective->Sapiarchal</li>
+                <li>r_memberName->Canonist</li>
+                <li>r_memberName->Votary</li>
+                <li>r_memberName->Adherent</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerDeity_Altmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityName->Auri-El</li>
+                <li>r_deityName->Trinimac</li>
+                <li>r_deityName->Magnus</li>
+                <li>r_deityName->Syrabane</li>
+                <li>r_deityName->Phynaster</li>
+                <li>r_deityName->Xarxes</li>
+                <li>r_deityName->Mafala</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_DeityTypeMaker_Altmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityType->king of the Aldmeri gods</li>
+                <li>r_deityType->champion of the old gods</li>
+                <li>r_deityType->the sorcerer who left the world</li>
+                <li>r_deityType->patron of young mages</li>
+                <li>r_deityType->who taught the Altmer to live a hundred years longer</li>
+                <li>r_deityType->scribe of the gods and keeper of histories</li>
+                <li>r_deityType->secret teacher of the Psijic path</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerFestival_Altmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_ritualName->[festivalName]</li>
+                <li>festivalName->The Sapiarchs' Convocation</li>
+                <li>festivalName->Auri-El's Rising</li>
+                <li>festivalName->Crystal Tower Vigil</li>
+                <li>festivalName->The Reading of the Lineages</li>
+                <li>festivalName->Night of Magnus</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <MemeDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Meme_AldmeriWay</defName>
+        <label>Aldmeri Way</label>
+        <description>The gods were our ancestors, and we are all that remains of what they were. Every rite, every lineage and every line of the histories keeps us from sinking into the mortal mud with everyone else. We owe the lesser races order. We do not owe them equality.</description>
+        <iconPath>UI/Structures/ESCP_OriginDivinesEight</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li>
+                <li>Cannibalism_Abhorrent</li>
+            </li>
+            <li>
+                <li>Slavery_Disapproved</li>
+                <li>Slavery_Acceptable</li>
+            </li>
+            <li>
+                <li>Execution_RespectedIfGuilty</li>
+            </li>
+            <li>
+                <li>Research_Fast</li>
+            </li>
+            <li>
+                <li>DrugUse_MedicalOrSocial</li>
+            </li>
+        </requireOne>
+    </MemeDef>
+
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/FactionDef[defName="ESCP_Faction_Aldmeri_Dominion"]</xpath>
+        <value>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Alinor</li>
+                    <li>Cloudrest</li>
+                    <li>Skywatch</li>
+                    <li>Lillandril</li>
+                    <li>Shimmerene</li>
+                    <li>Sunhold</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>AridShrubland</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/FactionDef[defName="ESCP_Faction_Thalmor"]</xpath>
+        <value>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Thalmor Embassy</li>
+                    <li>Northwatch Keep</li>
+                    <li>Firsthold</li>
+                    <li>Dusk</li>
+                    <li>Traitor's Tor</li>
+                    <li>Sil-Var-Woad</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>BorealForest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

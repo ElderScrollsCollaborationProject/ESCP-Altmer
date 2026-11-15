@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef ParentName="ESCP_BaseXenotype_MerStandardHead">
+        <defName>ESCP_Xenotype_Altmer</defName>
+        <label>Altmer</label>
+        <iconPath>UI/Icons/Xenotypes/Genie</iconPath>
+        <description>The tall, golden-skinned mer of the Summerset Isles, who count their descent from the et'Ada themselves and rarely let anyone forget it. Altmer train for centuries in magic and letters, and a single one of them may have read more than a human city. They are physically slight and they know it, which is part of why they prefer that someone else hold the front line.</description>
+        <descriptionShort>Golden-skinned mages of Summerset: long-lived, brilliant, and fragile.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Altmer_Highborn</li>
+            <li>ESCP_Gene_Altmer_Scholarship</li>
+            <li>ESCP_Gene_Altmer_Hauteur</li>
+            <li>Skin_PaleYellow</li>
+            <li>PsychicAbility_Enhanced</li>
+            <li>Beard_NoBeardOnly</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

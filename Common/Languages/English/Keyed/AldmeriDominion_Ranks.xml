@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_AldmeriDominion>Captain:</ESCP_Rank_Mentor_AldmeriDominion>
+    <ESCP_Rank_Promote_AldmeriDominion>Commend to the Queen</ESCP_Rank_Promote_AldmeriDominion>
+    <ESCP_Rank_Promoted_Text_AldmeriDominion>{0} has been raised to {1} of the Aldmeri Dominion.</ESCP_Rank_Promoted_Text_AldmeriDominion>
+    <ESCP_Rank_Rally_Title_AldmeriDominion>{0} rallies the Dominion</ESCP_Rank_Rally_Title_AldmeriDominion>
+    <ESCP_Rank_Rally_Text_AldmeriDominion>{0} raises the Dominion's eagle, and every one of {1} on the field presses forward.</ESCP_Rank_Rally_Text_AldmeriDominion>
+    <ESCP_Rank_InspectionComplete_Commended_AldmeriDominion>{0} checks {1}'s gear and finds it worthy of Summerset's forges.</ESCP_Rank_InspectionComplete_Commended_AldmeriDominion>
+    <ESCP_Rank_InspectionComplete_Reprimanded_AldmeriDominion>{0} checks {1}'s gear and sends them back to fix it.</ESCP_Rank_InspectionComplete_Reprimanded_AldmeriDominion>
+    <ESCP_Rank_PunishmentAssigned_AldmeriDominion>{0} sends {1} to dig trenches.</ESCP_Rank_PunishmentAssigned_AldmeriDominion>
+
+</LanguageData>

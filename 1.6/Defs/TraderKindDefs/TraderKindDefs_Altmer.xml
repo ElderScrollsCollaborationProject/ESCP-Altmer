@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraderKindDef>
+        <defName>ESCP_Caravan_Altmer_Trader</defName>
+        <label>Altmer trader</label>
+        <modExtensions>
+            <li Class="ESCP.Currencies.CurrencyReplacement">
+                <currency>ESCP_Currency_Septims</currency>
+            </li>
+        </modExtensions>
+
+        <stockGenerators>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Gold</thingDef>
+                <countRange>20~70</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>400~1000</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineIndustrial</thingDef>
+                <countRange>6~18</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Cloth</thingDef>
+                <countRange>60~160</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Synthread</thingDef>
+                <countRange>10~40</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MealFine</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ESCP_Tome_Firebolt</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ESCP_Tome_Ward</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Art</tag>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>ExoticMisc</tag>
+            </li>
+
+        </stockGenerators>
+
+        <tradeCurrency>Silver</tradeCurrency>
+
+    </TraderKindDef>
+
+</Defs>

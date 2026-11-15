@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Thalmor_Enlist_Letter_Title>In Thalmor service</ESCP_Thalmor_Enlist_Letter_Title>
+    <ESCP_Thalmor_Enlist_Letter_Label>A Thalmor agent has entered the colony in the embassy ledgers. The Thalmor pay well, and they will expect to be useful in return.</ESCP_Thalmor_Enlist_Letter_Label>
+    <ESCP_Thalmor_Enlist_Button_Label>Enter Thalmor service</ESCP_Thalmor_Enlist_Button_Label>
+    <ESCP_Thalmor_Enlist_Button_Desc>Offer the colony's loyalty to the Thalmor. They reward obedience, and they keep careful records.</ESCP_Thalmor_Enlist_Button_Desc>
+    <ESCP_Thalmor_Enlist_Requrements_Not_Satisfied>The Thalmor do not consider you reliable. Standing: {0}.</ESCP_Thalmor_Enlist_Requrements_Not_Satisfied>
+    <ESCP_Thalmor_Enlisted_To_Hostile_Faction>The Thalmor do not accept the service of their enemies.</ESCP_Thalmor_Enlisted_To_Hostile_Faction>
+    <ESCP_Thalmor_Enlisted_With_Key>In the service of the Thalmor</ESCP_Thalmor_Enlisted_With_Key>
+    <ESCP_Thalmor_Missions_Label>Embassy assignments</ESCP_Thalmor_Missions_Label>
+    <ESCP_Thalmor_Missions_Desc>See what the embassy wants done.</ESCP_Thalmor_Missions_Desc>
+    <ESCP_Thalmor_Menu_Missions_Desc>Assignments from the embassy. Payment follows a satisfactory report.</ESCP_Thalmor_Menu_Missions_Desc>
+    <ESCP_Thalmor_Menu_Missions_Select_Quest>Select a job</ESCP_Thalmor_Menu_Missions_Select_Quest>
+    <ESCP_Thalmor_Menu_Missions_Start_Quest>Accept</ESCP_Thalmor_Menu_Missions_Start_Quest>
+    <ESCP_Thalmor_Menu_Missions_Collect_Bounty>Collect</ESCP_Thalmor_Menu_Missions_Collect_Bounty>
+    <ESCP_Thalmor_Provisions_Label>Draw embassy stores</ESCP_Thalmor_Provisions_Label>
+    <ESCP_Thalmor_Provisions_Desc>Fine food and good medicine from the embassy cellars.</ESCP_Thalmor_Provisions_Desc>
+    <ESCP_Thalmor_Storage_Label>Embassy vault</ESCP_Thalmor_Storage_Label>
+    <ESCP_Thalmor_Storage_Desc>Leave goods in the embassy's keeping.</ESCP_Thalmor_Storage_Desc>
+    <ESCP_Thalmor_Resign_Menu_Text>Leave Thalmor service? The Thalmor do not take this lightly.</ESCP_Thalmor_Resign_Menu_Text>
+    <ESCP_Thalmor_Resign_Letter_Title>Left Thalmor service</ESCP_Thalmor_Resign_Letter_Title>
+    <ESCP_Thalmor_Resign_Letter_Label>The colony has withdrawn from Thalmor service. An agent made a note of it.</ESCP_Thalmor_Resign_Letter_Label>
+    <ESCP_Thalmor_Resign_Button_Label>Withdraw from service</ESCP_Thalmor_Resign_Button_Label>
+    <ESCP_Thalmor_Resign_Button_Desc>End your arrangement with the Thalmor.</ESCP_Thalmor_Resign_Button_Desc>
+    <ESCP_Thalmor_Kick_Out_Letter_Title>Dismissed by the Thalmor</ESCP_Thalmor_Kick_Out_Letter_Title>
+    <ESCP_Thalmor_Kick_Out_Label_Title>The Thalmor have decided the colony is a liability.</ESCP_Thalmor_Kick_Out_Label_Title>
+    <ESCP_Thalmor_Salary_Label>Collect your retainer</ESCP_Thalmor_Salary_Label>
+    <ESCP_Thalmor_Salary_Desc>Dominion gold, counted out by a clerk who checks it twice.</ESCP_Thalmor_Salary_Desc>
+    <ESCP_Thalmor_Work_0_Label>Watch for Talos worshippers</ESCP_Thalmor_Work_0_Label>
+    <ESCP_Thalmor_Work_0_Desc>Listen in taverns and report what you hear. The Thalmor pay for names.</ESCP_Thalmor_Work_0_Desc>
+    <ESCP_Thalmor_Work_1_Label>Study in the embassy library</ESCP_Thalmor_Work_1_Label>
+    <ESCP_Thalmor_Work_1_Desc>Read under the eye of a Thalmor mage.</ESCP_Thalmor_Work_1_Desc>
+
+</LanguageData>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Altmer_Highborn</defName>
+        <label>highborn</label>
+        <description>Magicka comes to Altmer the way breath comes to anyone else. Carriers of this gene hold far more of it than other people, and it returns to them faster. Once a day they can open themselves completely and let it flood back.</description>
+        <iconPath>UI/Icons/Genes/Gene_PsychicBonding</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statOffsets>
+            <ESCP_MagickaMax>40</ESCP_MagickaMax>
+            <ESCP_MagickaRegen>0.1</ESCP_MagickaRegen>
+        </statOffsets>
+        <abilities>
+            <li>ESCP_Ability_Altmer_Highborn</li>
+        </abilities>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Altmer_Scholarship</defName>
+        <label>Sapiarch's memory</label>
+        <description>The College of Sapiarchs expects its students to retain what they read, and generations of that expectation have left a mark. Research goes quickly and lessons stick.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <ResearchSpeed>0.15</ResearchSpeed>
+            <GlobalLearningFactor>0.1</GlobalLearningFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Altmer_Hauteur</defName>
+        <label>Altmeri hauteur</label>
+        <description>There is a tilt of the chin that lesser races find very hard to argue with. Negotiation favors the carrier, though nobody leaves the conversation liking them more.</description>
+        <iconPath>UI/Icons/Genes/Gene_PsychicBonding</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <NegotiationAbility>0.1</NegotiationAbility>
+            <SocialImpact>0.05</SocialImpact>
+        </statOffsets>
+    </GeneDef>
+
+</Defs>

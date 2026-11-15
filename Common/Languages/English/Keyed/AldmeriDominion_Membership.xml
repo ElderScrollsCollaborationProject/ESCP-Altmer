@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_AldmeriDominion_Enlist_Letter_Title>Sworn to the Dominion</ESCP_AldmeriDominion_Enlist_Letter_Title>
+    <ESCP_AldmeriDominion_Enlist_Letter_Label>The colony now serves the Aldmeri Dominion. Dominion outposts will pay and supply its people.</ESCP_AldmeriDominion_Enlist_Letter_Label>
+    <ESCP_AldmeriDominion_Enlist_Button_Label>Swear to the Dominion</ESCP_AldmeriDominion_Enlist_Button_Label>
+    <ESCP_AldmeriDominion_Enlist_Button_Desc>Join the Aldmeri Dominion and serve the elven nations against the younger races' empire.</ESCP_AldmeriDominion_Enlist_Button_Desc>
+    <ESCP_AldmeriDominion_Enlist_Requrements_Not_Satisfied>The Dominion does not yet trust you. Standing: {0}.</ESCP_AldmeriDominion_Enlist_Requrements_Not_Satisfied>
+    <ESCP_AldmeriDominion_Enlisted_To_Hostile_Faction>The Dominion does not accept oaths from its enemies.</ESCP_AldmeriDominion_Enlisted_To_Hostile_Faction>
+    <ESCP_AldmeriDominion_Enlisted_With_Key>Sworn to the Aldmeri Dominion</ESCP_AldmeriDominion_Enlisted_With_Key>
+    <ESCP_AldmeriDominion_Missions_Label>Dominion directives</ESCP_AldmeriDominion_Missions_Label>
+    <ESCP_AldmeriDominion_Missions_Desc>See what the Dominion needs done.</ESCP_AldmeriDominion_Missions_Desc>
+    <ESCP_AldmeriDominion_Menu_Missions_Desc>Directives from the Dominion command. Payment arrives once the task is reported complete.</ESCP_AldmeriDominion_Menu_Missions_Desc>
+    <ESCP_AldmeriDominion_Menu_Missions_Select_Quest>Select a job</ESCP_AldmeriDominion_Menu_Missions_Select_Quest>
+    <ESCP_AldmeriDominion_Menu_Missions_Start_Quest>Accept</ESCP_AldmeriDominion_Menu_Missions_Start_Quest>
+    <ESCP_AldmeriDominion_Menu_Missions_Collect_Bounty>Collect</ESCP_AldmeriDominion_Menu_Missions_Collect_Bounty>
+    <ESCP_AldmeriDominion_Provisions_Label>Draw supplies</ESCP_AldmeriDominion_Provisions_Label>
+    <ESCP_AldmeriDominion_Provisions_Desc>Rations and medicine from a Dominion outpost.</ESCP_AldmeriDominion_Provisions_Desc>
+    <ESCP_AldmeriDominion_Storage_Label>Dominion depot</ESCP_AldmeriDominion_Storage_Label>
+    <ESCP_AldmeriDominion_Storage_Desc>Leave goods at any Dominion outpost.</ESCP_AldmeriDominion_Storage_Desc>
+    <ESCP_AldmeriDominion_Resign_Menu_Text>Leave the Dominion's service? Your standing will suffer.</ESCP_AldmeriDominion_Resign_Menu_Text>
+    <ESCP_AldmeriDominion_Resign_Letter_Title>Left the Dominion</ESCP_AldmeriDominion_Resign_Letter_Title>
+    <ESCP_AldmeriDominion_Resign_Letter_Label>The colony no longer serves the Aldmeri Dominion.</ESCP_AldmeriDominion_Resign_Letter_Label>
+    <ESCP_AldmeriDominion_Resign_Button_Label>Leave the Dominion</ESCP_AldmeriDominion_Resign_Button_Label>
+    <ESCP_AldmeriDominion_Resign_Button_Desc>Give up your oath to the Dominion.</ESCP_AldmeriDominion_Resign_Button_Desc>
+    <ESCP_AldmeriDominion_Kick_Out_Letter_Title>Expelled from the Dominion</ESCP_AldmeriDominion_Kick_Out_Letter_Title>
+    <ESCP_AldmeriDominion_Kick_Out_Label_Title>The Dominion has struck the colony from its rolls.</ESCP_AldmeriDominion_Kick_Out_Label_Title>
+    <ESCP_AldmeriDominion_Salary_Label>Collect your pay</ESCP_AldmeriDominion_Salary_Label>
+    <ESCP_AldmeriDominion_Salary_Desc>Dominion coin from the Summerset treasury.</ESCP_AldmeriDominion_Salary_Desc>
+    <ESCP_AldmeriDominion_Work_0_Label>Serve with the Dominion army</ESCP_AldmeriDominion_Work_0_Label>
+    <ESCP_AldmeriDominion_Work_0_Desc>Drill and march with Dominion soldiers.</ESCP_AldmeriDominion_Work_0_Desc>
+    <ESCP_AldmeriDominion_Work_1_Label>Carry dispatches</ESCP_AldmeriDominion_Work_1_Label>
+    <ESCP_AldmeriDominion_Work_1_Desc>Ride between Dominion outposts with sealed letters.</ESCP_AldmeriDominion_Work_1_Desc>
+
+</LanguageData>

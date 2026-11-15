@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>ESCP_Quest_Thalmor_EmbassyRescue</defName>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <canGiveRoyalFavor>false</canGiveRoyalFavor>
+        <expireDaysRange>6~10</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->The Embassy Cells</li>
+                <li>questName->Out of Thalmor Hands</li>
+                <li>questName->[captive_nameDef] in Chains</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->Word has come that the justiciars did not take [captive_nameDef] far. The prisoner is being held for questioning in the cells of a Thalmor embassy a few days from the colony, and is still alive.\n\nGetting [captive_objective] out means fighting through every guard in the place. The moment your people set foot inside, [captors_name] will treat the colony as an enemy, and they will not forget it.\n\nThe longer the questioning goes on, the less there will be left to bring home.</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_AdjustPointsForDistantFight</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="QuestNode_GetSiteTile">
+                    <storeAs>siteTile</storeAs>
+                    <preferCloserTiles>true</preferCloserTiles>
+                </li>
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_GetSitePartDefsByTagsAndFaction">
+                    <storeAs>sitePartDefs</storeAs>
+                    <storeFactionAs>siteFaction</storeFactionAs>
+                    <factionToUse>$captors</factionToUse>
+                    <sitePartsTags>
+                        <li>
+                            <tag>BanditCamp</tag>
+                        </li>
+                    </sitePartsTags>
+                </li>
+                <li Class="QuestNode_GetDefaultSitePartsParams">
+                    <tile>$siteTile</tile>
+                    <faction>$siteFaction</faction>
+                    <sitePartDefs>$sitePartDefs</sitePartDefs>
+                    <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_GenerateSite</def>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$site</worldObjects>
+                </li>
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_FactionRelationToPlayer">
+                    <inSignal>site.MapGenerated</inSignal>
+                    <faction>$captors</faction>
+                    <relationKind>Hostile</relationKind>
+                </li>
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_ReturnKidnapped">
+                    <inSignal>site.AllEnemiesDefeated</inSignal>
+                    <pawn>$captive</pawn>
+                    <faction>$captors</faction>
+                    <mapParent>$site</mapParent>
+                    <outSignalReturned>captive.Freed</outSignalReturned>
+                    <outSignalLost>captive.Lost</outSignalLost>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>captive.Freed</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Notify_PlayerRaidedSomeone">
+                                <getRaidersFromMapParent>$site</getRaidersFromMapParent>
+                            </li>
+                            <li Class="QuestNode_Letter">
+                                <letterDef>PositiveEvent</letterDef>
+                                <label>[captive_nameDef] found</label>
+                                <text>The embassy guards are dead or fled. [captive_nameDef] was found in the cells below, bruised and half-starved but alive, and is ready to come home.</text>
+                                <lookTargets>$captive</lookTargets>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>captive.Lost</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <letterDef>NegativeEvent</letterDef>
+                                <label>Too late</label>
+                                <text>The cells are empty. Whatever the justiciars did with [captive_nameDef], they finished before you arrived.</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>site.Destroyed</inSignal>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <worldObject>$site</worldObject>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <delayTicks>$(randInt(20,30)*60000)</delayTicks>
+                    <inSignalDisable>site.MapGenerated</inSignalDisable>
+                    <destroyOnCleanup>true</destroyOnCleanup>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

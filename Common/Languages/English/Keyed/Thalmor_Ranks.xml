@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_Thalmor>Handler:</ESCP_Rank_Mentor_Thalmor>
+    <ESCP_Rank_Promote_Thalmor>Recommend to the Embassy</ESCP_Rank_Promote_Thalmor>
+    <ESCP_Rank_Promoted_Text_Thalmor>{0} has been elevated to {1}. The Thalmor reward loyalty.</ESCP_Rank_Promoted_Text_Thalmor>
+    <ESCP_Rank_Rally_Title_Thalmor>{0} invokes Aldmeri supremacy</ESCP_Rank_Rally_Title_Thalmor>
+    <ESCP_Rank_Rally_Text_Thalmor>{0} speaks of the Aldmer's right to rule, and every one of {1} on the field strikes with cold certainty.</ESCP_Rank_Rally_Text_Thalmor>
+    <ESCP_Rank_InspectionComplete_Commended_Thalmor>{0} inspects {1}'s robes and finds them immaculate.</ESCP_Rank_InspectionComplete_Commended_Thalmor>
+    <ESCP_Rank_InspectionComplete_Reprimanded_Thalmor>{0} inspects {1}'s robes and makes a note in their file.</ESCP_Rank_InspectionComplete_Reprimanded_Thalmor>
+    <ESCP_Rank_PunishmentAssigned_Thalmor>{0} makes a note in {1}'s file. {1} will not forget it.</ESCP_Rank_PunishmentAssigned_Thalmor>
+
+</LanguageData>

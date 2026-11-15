@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>ESCP_Faction_Altmer_Player</defName>
+        <label>Summerset Enclave</label>
+        <description>A small enclave of Altmer living far from Summerset. Whether they were exiled, sent or simply tired of the Thalmor is nobody else's business, and they will say so at length.</description>
+        <isPlayer>true</isPlayer>
+        <techLevel>Medieval</techLevel>
+        <basicMemberKind>ESCP_Pawnkind_Altmer_Settler</basicMemberKind>
+        <pawnSingular>Altmer</pawnSingular>
+        <pawnsPlural>Altmer</pawnsPlural>
+        <leaderTitle>Canon</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <colorSpectrum>
+            <li>(0.85, 0.7, 0.2)</li>
+        </colorSpectrum>
+        <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+            <xenotypeChances>
+                <ESCP_Xenotype_Altmer>1</ESCP_Xenotype_Altmer>
+            </xenotypeChances>
+        </xenotypeSet>
+        <disallowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Meme_NineDivines</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Structure_OriginDivinesNine</li>
+        </disallowedMemes>
+        <allowedCultures>
+            <li>ESCP_Culture_Altmer</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Altmer_Child</li>
+                    <li>ESCP_Backstory_Altmer_Citizen</li>
+                    <li>ESCP_Backstory_Altmer_Military</li>
+                    <li>ESCP_Backstory_Altmer_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <modExtensions>
+            <li Class="ESCP_RaceTools.FactionProperties">
+                <factionTags>
+                    <li>ESCP_Aldmeri</li>
+                </factionTags>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

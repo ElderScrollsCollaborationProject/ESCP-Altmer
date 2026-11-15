@@ -1,0 +1,2287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Lineage_Heir</defName>
+        <identifier>ESCP_Backstory_Altmer_Lineage_Heir</identifier>
+        <slot>Childhood</slot>
+        <title>minor house heir</title>
+        <titleShort>Heir</titleShort>
+        <description>[PAWN_nameDef] learned to recite thirty generations of family before learning to swim. Tutors came and went on a schedule, and every small failure was entered in a book that [PAWN_possessive] grandparents read.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Dockhand_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Dockhand_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Auridon dock brat</title>
+        <titleShort>Dock brat</titleShort>
+        <description>Not every Altmer is raised in a tower. [PAWN_nameDef] grew up around the ships at Firsthold, carrying cargo for captains who pretended not to see [PAWN_objective], and picked up foreign words along with a low opinion of foreigners.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>1</Melee>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_College_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_College_Child</identifier>
+        <slot>Childhood</slot>
+        <title>College foundling</title>
+        <titleShort>Foundling</titleShort>
+        <description>[PAWN_nameDef] was left at the College of Sapiarchs with a sealed letter nobody ever explained. The archivists raised [PAWN_objective] between their other duties, and [PAWN_pronoun] could find any scroll in the building by age ten.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Thalmor_Agent</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Thalmor_Agent</identifier>
+        <slot>Adulthood</slot>
+        <title>Thalmor agent</title>
+        <titleShort>Agent</titleShort>
+        <description>For years [PAWN_nameDef] reported on merchants, priests and occasionally on other agents. The work suited [PAWN_objective] until the day [PAWN_possessive] own name appeared on the wrong list.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Shooting>3</Shooting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Dominion_Marine</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Dominion_Marine</identifier>
+        <slot>Adulthood</slot>
+        <title>Dominion marine</title>
+        <titleShort>Marine</titleShort>
+        <description>[PAWN_nameDef] served aboard the Dominion's fleet, boarding pirate galleys off Pyandonea and landing wherever the admirals pointed. Decades at sea left a good sword arm and no fondness for boats.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Battlemage</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Battlemage</identifier>
+        <slot>Adulthood</slot>
+        <title>Alinor battlemage</title>
+        <titleShort>Battlemage</titleShort>
+        <description>The army of Alinor taught [PAWN_nameDef] to throw fire in formation, on command, and to keep doing it once the other side started throwing it back. Most of [PAWN_possessive] class did not reach retirement.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Sapiarch</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Sapiarch</identifier>
+        <slot>Adulthood</slot>
+        <title>disgraced sapiarch</title>
+        <titleShort>Sapiarch</titleShort>
+        <description>[PAWN_nameDef] published a history that disagreed with the wrong family. A century of scholarship was struck from the College's records in an afternoon, and leaving Summerset seemed wiser than arguing.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>ManualDumb</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Merchant</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>Sunhold factor</title>
+        <titleShort>Factor</titleShort>
+        <description>[PAWN_nameDef] managed trade for a noble house out of Sunhold, buying grain, selling glass and keeping two sets of accounts. Foreign buyers always assumed the second set was the honest one.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Gardener</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Gardener</identifier>
+        <slot>Adulthood</slot>
+        <title>topiary keeper</title>
+        <titleShort>Keeper</titleShort>
+        <description>The gardens of Summerset are shaped over lifetimes, and [PAWN_nameDef] spent one of them on a single hedge wall outside Shimmerene. It is, by any fair measure, a very good hedge.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Ceremony_Page</defName>
+        <identifier>ESCP_Backstory_Altmer_Ceremony_Page</identifier>
+        <slot>Childhood</slot>
+        <title>ceremony page</title>
+        <titleShort>Page</titleShort>
+        <description>[PAWN_nameDef] carried cushions at Crystal Tower functions, and learned early that the order of a procession could end a family's fortunes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Vineyard_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Vineyard_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Lillandril vintner's child</title>
+        <titleShort>Vintner's</titleShort>
+        <description>The family grew grapes on terraces older than most human kingdoms. [PAWN_nameDef] could name the slope a wine came from by smell, a talent nobody ever asked to see outside of dinner.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Pyandonea_Orphan</defName>
+        <identifier>ESCP_Backstory_Altmer_Pyandonea_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>raid orphan</title>
+        <titleShort>Orphan</titleShort>
+        <description>Maormer raiders burned the village when [PAWN_nameDef] was small. [PAWN_pronoun] grew up in a navy hostel, sleeping under the portraits of admirals.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Glass_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Glass_Child</identifier>
+        <slot>Childhood</slot>
+        <title>glassblower's apprentice</title>
+        <titleShort>Apprentice</titleShort>
+        <description>Summerset glass is not actually made of anything so ordinary. [PAWN_nameDef] swept the workshop for six years before being allowed near the furnace.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Candidate</defName>
+        <identifier>ESCP_Backstory_Altmer_Candidate</identifier>
+        <slot>Childhood</slot>
+        <title>rejected candidate</title>
+        <titleShort>Candidate</titleShort>
+        <description>Every child in the family sat the examination for the Sapiarchs. [PAWN_nameDef] failed it twice and heard about it for the rest of [PAWN_possessive] youth.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Star_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Star_Child</identifier>
+        <slot>Childhood</slot>
+        <title>stargazer's ward</title>
+        <titleShort>Ward</titleShort>
+        <description>An old astronomer at Skywatch took [PAWN_nameDef] in to mind the instruments. They spent their nights charting the constellations and their days asleep.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Censor</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Censor</identifier>
+        <slot>Adulthood</slot>
+        <title>Dominion censor</title>
+        <titleShort>Censor</titleShort>
+        <description>[PAWN_nameDef] read other people's books for a living and inked out the parts that were inconvenient. Eventually [PAWN_pronoun] knew more forbidden history than anyone alive, and that became a problem of its own.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Herald</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Herald</identifier>
+        <slot>Adulthood</slot>
+        <title>court herald</title>
+        <titleShort>Herald</titleShort>
+        <description>No name at court was ever mispronounced on [PAWN_nameDef]'s watch. Three duels and a minor war have been avoided that way, or so [PAWN_pronoun] claims.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>ManualDumb</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Physician</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Physician</identifier>
+        <slot>Adulthood</slot>
+        <title>temple physician</title>
+        <titleShort>Physician</titleShort>
+        <description>[PAWN_nameDef] served at a temple infirmary in Cloudrest, tending nobles who were mostly unwell from boredom. The rare real wound was almost a relief.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>7</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Architect</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Architect</identifier>
+        <slot>Adulthood</slot>
+        <title>tower mason</title>
+        <titleShort>Mason</titleShort>
+        <description>Altmeri towers are expected to stand for ten thousand years, and [PAWN_nameDef] takes that specification personally. [PAWN_pronoun] has torn down a finished wall over a thumb's width.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>7</Construction>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Sculptor</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Sculptor</identifier>
+        <slot>Adulthood</slot>
+        <title>marble sculptor</title>
+        <titleShort>Sculptor</titleShort>
+        <description>[PAWN_nameDef] spent thirty years carving a likeness of a patron who died before it was finished. The heirs refused to pay, and the statue still stands in a warehouse in Alinor.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>8</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Envoy</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Envoy</identifier>
+        <slot>Adulthood</slot>
+        <title>Dominion envoy</title>
+        <titleShort>Envoy</titleShort>
+        <description>Sent to Elsweyr to smooth over trade disputes, [PAWN_nameDef] learned to sit through a Khajiiti negotiation without once showing what [PAWN_pronoun] thought of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Fleet_Navigator</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Fleet_Navigator</identifier>
+        <slot>Adulthood</slot>
+        <title>fleet navigator</title>
+        <titleShort>Navigator</titleShort>
+        <description>[PAWN_nameDef] plotted courses through the Abecean for the Dominion fleet. Being wrong out there tends to be a once-in-a-lifetime mistake, and [PAWN_pronoun] has not made it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Justiciar</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Justiciar</identifier>
+        <slot>Adulthood</slot>
+        <title>Justiciar inquisitor</title>
+        <titleShort>Inquisitor</titleShort>
+        <description>A polite knock and a list of questions: that was [PAWN_nameDef]'s whole method. Most people answered before the second knock.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Melee>3</Melee>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Longbow</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Longbow</identifier>
+        <slot>Adulthood</slot>
+        <title>wall archer</title>
+        <titleShort>Archer</titleShort>
+        <description>[PAWN_nameDef] guarded the sea walls at Sunhold through a whole century of nothing happening, followed by a very bad week.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Veteran</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Veteran</identifier>
+        <slot>Adulthood</slot>
+        <title>Great War veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>[PAWN_nameDef] marched on the Imperial City and later walked back from it. Nobody at home wants to discuss the second part.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Duelist</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Duelist</identifier>
+        <slot>Adulthood</slot>
+        <title>honor duelist</title>
+        <titleShort>Duelist</titleShort>
+        <description>Noble houses are forbidden from open feuds, so they hire people like [PAWN_nameDef] to settle things on their behalf at dawn, with all the proper paperwork.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Psijic</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Psijic</identifier>
+        <slot>Adulthood</slot>
+        <title>failed Psijic novice</title>
+        <titleShort>Novice</titleShort>
+        <description>[PAWN_nameDef] once spent a season on Artaeum, or thinks [PAWN_pronoun] did. The island has since made it clear [PAWN_pronoun] will not find it again.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Enchanter</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Enchanter</identifier>
+        <slot>Adulthood</slot>
+        <title>court enchanter</title>
+        <titleShort>Enchanter</titleShort>
+        <description>[PAWN_nameDef] put wards on jewelry, doorways and once a very nervous duke. The work paid well and the clients rarely understood what they had bought.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Illusionist</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Illusionist</identifier>
+        <slot>Adulthood</slot>
+        <title>theater illusionist</title>
+        <titleShort>Illusionist</titleShort>
+        <description>The stages of Shimmerene like their dragons convincing. [PAWN_nameDef] once made an audience flee a playhouse and was given a bonus for it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>5</Artistic>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Necro_Hunter</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Necro_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>Order of Mages hunter</title>
+        <titleShort>Hunter</titleShort>
+        <description>Since Mannimarco, Summerset has kept a quiet office for the pursuit of necromancers. [PAWN_nameDef] worked there and has dug up more graves than most of the people [PAWN_pronoun] hunted.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Archivist</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Archivist</identifier>
+        <slot>Adulthood</slot>
+        <title>exiled archivist</title>
+        <titleShort>Archivist</titleShort>
+        <description>[PAWN_nameDef] copied the wrong page, kept the copy, and left Alinor at night with it sewn into [PAWN_possessive] coat.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>ManualDumb</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Crystal_Tower_Page</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Crystal_Tower_Page</identifier>
+        <slot>Childhood</slot>
+        <title>Crystal Tower page</title>
+        <titleShort>Page</titleShort>
+        <description>Carrying scrolls up the Crystal Tower left [PAWN_nameDef] with strong legs and a low opinion of stairs. Nobody ever explained what the scrolls said.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Cloudrest_Kite_Flyer</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Cloudrest_Kite_Flyer</identifier>
+        <slot>Childhood</slot>
+        <title>Cloudrest kite flyer</title>
+        <titleShort>Flyer</titleShort>
+        <description>The winds around Cloudrest will take anything that weighs less than a child. [PAWN_nameDef] built kites from old parchment and lost most of them over the sea.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Shimmerene_Chorister</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Shimmerene_Chorister</identifier>
+        <slot>Childhood</slot>
+        <title>Shimmerene chorister</title>
+        <titleShort>Chorister</titleShort>
+        <description>Shimmerene wanted its children singing before they could read. [PAWN_nameDef] was given a place in the third row and told to keep [PAWN_possessive] chin up.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Dusk_Garrison_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Dusk_Garrison_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Dusk garrison child</title>
+        <titleShort>Garrison</titleShort>
+        <description>Dusk has always been the island's unfashionable corner. [PAWN_nameDef] grew up between its barracks and learned to swear in three dialects.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Skywatch_Stable_Hand</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Skywatch_Stable_Hand</identifier>
+        <slot>Childhood</slot>
+        <title>Skywatch stable hand</title>
+        <titleShort>Stable hand</titleShort>
+        <description>Horses at Skywatch were better bred than most people in Cyrodiil, and [PAWN_nameDef] was reminded of this every morning while shoveling after them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Lineage_Reciter</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Lineage_Reciter</identifier>
+        <slot>Childhood</slot>
+        <title>lineage reciter</title>
+        <titleShort>Reciter</titleShort>
+        <description>By six, [PAWN_nameDef] could recite forty generations of ancestors without pausing. The family took guests to the parlor just to hear it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Sea_Elf_Raid_Survivor</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Sea_Elf_Raid_Survivor</identifier>
+        <slot>Childhood</slot>
+        <title>Sea Elf raid survivor</title>
+        <titleShort>Survivor</titleShort>
+        <description>Maormer ships came out of the fog when [PAWN_nameDef] was small. Afterward the village was four houses shorter, and the child slept with a bow nearby.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Medicine>1</Medicine>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Tutors_Despair</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Tutors_Despair</identifier>
+        <slot>Childhood</slot>
+        <title>tutor's despair</title>
+        <titleShort>Pupil</titleShort>
+        <description>Eleven tutors resigned over [PAWN_nameDef]. The twelfth took to locking the door, which only taught the child about locks.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>1</Intellectual>
+            <Melee>2</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Alinor_Market_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Alinor_Market_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Alinor market child</title>
+        <titleShort>Market child</titleShort>
+        <description>In the lower markets of Alinor, [PAWN_nameDef] sold candied fruit to people who would never have looked down far enough to see the seller.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Firsthold_Orchard_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Firsthold_Orchard_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Firsthold orchard child</title>
+        <titleShort>Orchard child</titleShort>
+        <description>Each year, Firsthold's orchards were judged for symmetry as well as yield. [PAWN_nameDef] spent long afternoons pruning trees that already looked perfect.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Auridon_Fishers_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Auridon_Fishers_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Auridon fisher's child</title>
+        <titleShort>Fisher's child</titleShort>
+        <description>The nets came in full or they did not, and no amount of ancestry changed the result. Auridon's shore taught [PAWN_nameDef] that much early.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Phynaster_Pilgrim</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Phynaster_Pilgrim</identifier>
+        <slot>Childhood</slot>
+        <title>Phynaster pilgrim</title>
+        <titleShort>Pilgrim</titleShort>
+        <description>[PAWN_possessive] parents walked the old route of Phynaster, who supposedly taught the Altmer to live a hundred years longer. [PAWN_nameDef] mostly remembers the blisters.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Salache_Born_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Salache_Born_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Salache-born child</title>
+        <titleShort>Salache</titleShort>
+        <description>Mother's kin and father's kin were both Altmer, and neither side would admit the other was. [PAWN_nameDef] was raised among the salache of Auridon with two sets of manners.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Lamp_Trimmer</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Lamp_Trimmer</identifier>
+        <slot>Childhood</slot>
+        <title>lamp trimmer</title>
+        <titleShort>Lamp trimmer</titleShort>
+        <description>Every lamp in the archive had to burn without smoke. [PAWN_nameDef] trimmed wicks at dusk and read whatever had been left open on the tables.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Garden_Statue_Cleaner</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Garden_Statue_Cleaner</identifier>
+        <slot>Childhood</slot>
+        <title>garden statue cleaner</title>
+        <titleShort>Cleaner</titleShort>
+        <description>With a soft brush and a bucket, [PAWN_nameDef] washed bird droppings off the likeness of a dead ancestor. A good view of fine stonework came free with the work.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Younger_Twin</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Younger_Twin</identifier>
+        <slot>Childhood</slot>
+        <title>younger twin</title>
+        <titleShort>Twin</titleShort>
+        <description>Being a few minutes late cost [PAWN_nameDef] the title, the inheritance and the good bedroom. The younger twin made up for it with a talent for grudges.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Justiciars_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Justiciars_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Justiciar's child</title>
+        <titleShort>Informer</titleShort>
+        <description>Children in a Justiciar's house learned to listen at dinner. [PAWN_nameDef] once reported an uncle for an offhand joke and got a sweet for it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Bangkorai_Exiles_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Bangkorai_Exiles_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Bangkorai exile's child</title>
+        <titleShort>Exile</titleShort>
+        <description>A family that fled the Dominion is still a family with opinions about the Dominion. [PAWN_nameDef] grew up abroad hearing about a home no one could return to.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Sapiarchs_Copyist</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Sapiarchs_Copyist</identifier>
+        <slot>Childhood</slot>
+        <title>Sapiarch's copyist</title>
+        <titleShort>Copyist</titleShort>
+        <description>Mistakes in a copied treatise were corrected with a rap across the knuckles. [PAWN_nameDef] developed lovely handwriting and very careful fingers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Cloud_Reader</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Cloud_Reader</identifier>
+        <slot>Childhood</slot>
+        <title>cloud reader</title>
+        <titleShort>Reader</titleShort>
+        <description>An old gardener taught [PAWN_nameDef] to tell the coming weather from the sky over the Sea of Pearls. The forecasts were right about half the time.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Crystal_Like_Law_Student</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Crystal_Like_Law_Student</identifier>
+        <slot>Childhood</slot>
+        <title>Crystal-Like-Law student</title>
+        <titleShort>Student</titleShort>
+        <description>Lessons at school covered the fall of Aldmeris, the superiority of Aldmeri blood and proper posture. [PAWN_nameDef] was excellent at posture.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Shipwrights_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Shipwrights_Child</identifier>
+        <slot>Childhood</slot>
+        <title>shipwright's child</title>
+        <titleShort>Shipwright</titleShort>
+        <description>Swan-prowed ships took shape over years in the yards of Lillandril. [PAWN_nameDef] held the plumb line and was eventually trusted with a chisel.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Cooks_Helper</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Cooks_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>cook's helper</title>
+        <titleShort>Helper</titleShort>
+        <description>There are nineteen correct ways of serving a pear, according to the kitchen where [PAWN_nameDef] grew up. Anyone who knew only eighteen ate last.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>4</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Auri_El_Acolyte</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Auri_El_Acolyte</identifier>
+        <slot>Childhood</slot>
+        <title>Auri-El acolyte</title>
+        <titleShort>Acolyte</titleShort>
+        <description>Dawn services at the temple of Auri-El started before the sun, a point of theology [PAWN_nameDef] never fully appreciated at age nine.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Syrabanes_Admirer</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Syrabanes_Admirer</identifier>
+        <slot>Childhood</slot>
+        <title>Syrabane's admirer</title>
+        <titleShort>Admirer</titleShort>
+        <description>After hearing about Syrabane's ring at Solitude, [PAWN_nameDef] spent a whole summer casting imaginary spells at the household cat. The cat took no lasting harm.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Melee>1</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Sickly_Heir</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Sickly_Heir</identifier>
+        <slot>Childhood</slot>
+        <title>sickly heir</title>
+        <titleShort>Heir</titleShort>
+        <description>Fevers kept [PAWN_nameDef] in bed through most of childhood, with a window, a stack of histories and an aunt who visited to check on the will.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Oblivion_Crisis_Orphan</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Oblivion_Crisis_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>Oblivion Crisis orphan</title>
+        <titleShort>Orphan</titleShort>
+        <description>Summerset's ports burned in the same years as Cyrodiil's, whatever the histories now prefer to say. [PAWN_nameDef] came through it with no relatives left.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Cooking>1</Cooking>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Net_Menders_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Net_Menders_Child</identifier>
+        <slot>Childhood</slot>
+        <title>net mender's child</title>
+        <titleShort>Mender</titleShort>
+        <description>Rope burn and salt were the first things [PAWN_nameDef] knew. Everything else about Summerset's famous beauty happened farther up the hill.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Gull_Hunter</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Gull_Hunter</identifier>
+        <slot>Childhood</slot>
+        <title>gull hunter</title>
+        <titleShort>Gull hunter</titleShort>
+        <description>Gulls stole from the drying racks, so [PAWN_nameDef] was handed a short bow and told to sort it out. Results were mixed, but dinner improved.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Mountain_Shepherd</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Mountain_Shepherd</identifier>
+        <slot>Childhood</slot>
+        <title>mountain shepherd</title>
+        <titleShort>Shepherd</titleShort>
+        <description>Goats do not care about ancestry. On the high pastures above Sunhold, [PAWN_nameDef] spent several happy years with nobody correcting [PAWN_possessive] vowels.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Temple_Foundling</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Temple_Foundling</identifier>
+        <slot>Childhood</slot>
+        <title>temple foundling</title>
+        <titleShort>Foundling</titleShort>
+        <description>Someone left a basket on the steps at Lillandril. The priests raised [PAWN_nameDef] kindly and never stopped wondering aloud who the parents were.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Mosaic_Setter</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Mosaic_Setter</identifier>
+        <slot>Childhood</slot>
+        <title>mosaic setter</title>
+        <titleShort>Setter</titleShort>
+        <description>[PAWN_nameDef] set tiles the size of a fingernail in a floor the family had started two hundred years earlier. It would be finished eventually.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Dominion_Ward</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Dominion_Ward</identifier>
+        <slot>Childhood</slot>
+        <title>Dominion ward</title>
+        <titleShort>Ward</titleShort>
+        <description>When a house fell out of favor, its children became wards of the Dominion. [PAWN_nameDef] learned gratitude at a state school and practiced it loudly.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Tidepool_Collector</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Tidepool_Collector</identifier>
+        <slot>Childhood</slot>
+        <title>tidepool collector</title>
+        <titleShort>Collector</titleShort>
+        <description>Starfish, shell, and a very unhappy crab all ended up labeled on a shelf in [PAWN_nameDef]'s room. The family assumed a career in natural philosophy.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Bellringers_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Bellringers_Child</identifier>
+        <slot>Childhood</slot>
+        <title>bellringer's child</title>
+        <titleShort>Bellringer</titleShort>
+        <description>The bells of Sunhold rang the hours, and [PAWN_nameDef] rang them when the old sexton's shoulders failed. A slight deafness on the left side remains.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Duel_Seconds_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Duel_Seconds_Child</identifier>
+        <slot>Childhood</slot>
+        <title>duel second's child</title>
+        <titleShort>Second</titleShort>
+        <description>A parent's work was carrying swords to dawn appointments and making polite conversation with the bereaved. [PAWN_nameDef] went along from an early age.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Tax_Clerks_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Tax_Clerks_Child</identifier>
+        <slot>Childhood</slot>
+        <title>tax clerk's child</title>
+        <titleShort>Clerk's child</titleShort>
+        <description>Evenings at home meant checking sums at the kitchen table. By ten, [PAWN_nameDef] could find a false entry and knew better than to mention it to the wrong person.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Stolen_Sweets_Thief</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Stolen_Sweets_Thief</identifier>
+        <slot>Childhood</slot>
+        <title>stolen sweets thief</title>
+        <titleShort>Thief</titleShort>
+        <description>An entire festival's worth of honey cakes vanished from a Canonreeve's table, and [PAWN_nameDef] was never charged. Most of the cakes were later found under a bed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Harbor_Pilots_Child</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Harbor_Pilots_Child</identifier>
+        <slot>Childhood</slot>
+        <title>harbor pilot's child</title>
+        <titleShort>Pilot's child</titleShort>
+        <description>Reefs around Summerset can gut a warship. [PAWN_nameDef] learned their names as other children learned rhymes, riding in the bow of a pilot boat.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Shooting>1</Shooting>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Artaeum_Dreamer</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Artaeum_Dreamer</identifier>
+        <slot>Childhood</slot>
+        <title>Artaeum dreamer</title>
+        <titleShort>Dreamer</titleShort>
+        <description>Islanders still talk about Artaeum as if it might come back into view. [PAWN_nameDef] looked for it from the cliffs every evening and once claimed to have seen it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Child_Courtiers_Shadow</defName>
+        <identifier>ESCP_Backstory_Altmer_Child_Courtiers_Shadow</identifier>
+        <slot>Childhood</slot>
+        <title>courtier's shadow</title>
+        <titleShort>Shadow</titleShort>
+        <description>Standing silently behind a chair was a real job at court. [PAWN_nameDef] held that job at eight, overhearing things that later ended careers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Dominion_Archer</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Dominion_Archer</identifier>
+        <slot>Adulthood</slot>
+        <title>Dominion archer</title>
+        <titleShort>Archer</titleShort>
+        <description>Battlefields from Elden Root to the Imperial City saw [PAWN_nameDef] in the third rank, loosing on a whistle and never once told why this particular hill mattered.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Thalmor_Headsman</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Thalmor_Headsman</identifier>
+        <slot>Adulthood</slot>
+        <title>Thalmor headsman</title>
+        <titleShort>Headsman</titleShort>
+        <description>Sentences of the Thalmor were usually read in private. [PAWN_nameDef] carried them out in private as well, and was paid on the first of each month.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Summerset_Marine</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Summerset_Marine</identifier>
+        <slot>Adulthood</slot>
+        <title>Summerset marine</title>
+        <titleShort>Marine</titleShort>
+        <description>Boarding Maormer ships takes a certain patience with being shot at. Twenty years aboard the eagle fleet gave [PAWN_nameDef] plenty of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Skywatch_Cavalry_Officer</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Skywatch_Cavalry_Officer</identifier>
+        <slot>Adulthood</slot>
+        <title>Skywatch cavalry officer</title>
+        <titleShort>Cavalry</titleShort>
+        <description>The cavalry of Skywatch rode beautifully and charged rarely. [PAWN_nameDef] saw one real charge, on a wet field in Hammerfell, and does not recommend it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Sunhold_Garrison_Sergeant</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Sunhold_Garrison_Sergeant</identifier>
+        <slot>Adulthood</slot>
+        <title>Sunhold garrison sergeant</title>
+        <titleShort>Sergeant</titleShort>
+        <description>Young nobles came to Sunhold to serve a fashionable year in uniform. [PAWN_nameDef] was the sergeant who stopped them from hurting themselves.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Fort_Greenwall_Survivor</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Fort_Greenwall_Survivor</identifier>
+        <slot>Adulthood</slot>
+        <title>Fort Greenwall survivor</title>
+        <titleShort>Greenwall</titleShort>
+        <description>The Dominion's Valenwood garrisons were not as welcome as the pamphlets claimed. [PAWN_nameDef] learned that during a very long night at a burning fort.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Red_Ring_Prisoner</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Red_Ring_Prisoner</identifier>
+        <slot>Adulthood</slot>
+        <title>Red Ring prisoner</title>
+        <titleShort>Prisoner</titleShort>
+        <description>After the Red Ring was closed around the Imperial City, things went badly for elves who were caught outside. [PAWN_nameDef] came home a year later, thinner and much less patient.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Construction>2</Construction>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Sentinel_Siege_Engineer</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Sentinel_Siege_Engineer</identifier>
+        <slot>Adulthood</slot>
+        <title>Sentinel siege engineer</title>
+        <titleShort>Engineer</titleShort>
+        <description>During the Hammerfell campaigns, [PAWN_nameDef] dug the trenches, aimed the catapults and sent a careful report about the Redguards who would not stop fighting.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>5</Construction>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Embassy_Guard</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Embassy_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>embassy guard</title>
+        <titleShort>Guard</titleShort>
+        <description>Standing at the door of a Dominion embassy means being spat at in many languages. [PAWN_nameDef] kept a straight face through all of them and a list of names.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Maormer_Hunter</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Maormer_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>Maormer hunter</title>
+        <titleShort>Hunter</titleShort>
+        <description>[PAWN_nameDef] sailed with the squadrons that chased Sea Elf raiders around Pyandonea's fog banks. A snake-carved prow still hangs on a wall somewhere as proof.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Sword_Singer_Of_Alinor</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Sword_Singer_Of_Alinor</identifier>
+        <slot>Adulthood</slot>
+        <title>sword-singer of Alinor</title>
+        <titleShort>Swordsman</titleShort>
+        <description>Fencing masters in Alinor insisted the form had to be beautiful or it did not count. Several dead opponents have been unable to argue the matter with [PAWN_nameDef].</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Bodyguard_To_A_Canonreeve</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Bodyguard_To_A_Canonreeve</identifier>
+        <slot>Adulthood</slot>
+        <title>bodyguard to a Canonreeve</title>
+        <titleShort>Bodyguard</titleShort>
+        <description>Canonreeves make plenty of enemies for people with so little real power. For thirty years, [PAWN_nameDef] walked one step behind a particularly unpopular one.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Courier_Of_The_Dominion</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Courier_Of_The_Dominion</identifier>
+        <slot>Adulthood</slot>
+        <title>courier of the Dominion</title>
+        <titleShort>Courier</titleShort>
+        <description>Messages between Auridon and the mainland went by ship, horse, and whoever was left alive. [PAWN_nameDef] rode the last dangerous part more times than was reasonable.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Animals>3</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Sea_Wall_Captain</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Sea_Wall_Captain</identifier>
+        <slot>Adulthood</slot>
+        <title>sea wall captain</title>
+        <titleShort>Captain</titleShort>
+        <description>Captaining a stretch of Firsthold's sea wall is mostly about mortar and rotas. Then the raiders come, and [PAWN_nameDef] finally got to justify the rotas.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Construction>2</Construction>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Deserter_From_Elsweyr</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Deserter_From_Elsweyr</identifier>
+        <slot>Adulthood</slot>
+        <title>deserter from Elsweyr</title>
+        <titleShort>Deserter</titleShort>
+        <description>Two Moons Dance was not supposed to be a war [PAWN_nameDef] had any part in. One night the sentry simply walked south and kept walking.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Plants>2</Plants>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Tournament_Archer</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Tournament_Archer</identifier>
+        <slot>Adulthood</slot>
+        <title>tournament archer</title>
+        <titleShort>Tournament</titleShort>
+        <description>Prizes for marksmanship paid better than service in the Dominion. [PAWN_nameDef] toured from one festival to the next, smiling and shooting apples.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Sapiarch_Of_Labor</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Sapiarch_Of_Labor</identifier>
+        <slot>Adulthood</slot>
+        <title>Sapiarch of Labor</title>
+        <titleShort>Sapiarch</titleShort>
+        <description>The Sapiarchs of Labor study how a spell should be applied to a thing that must be done. [PAWN_nameDef] wrote the definitive monograph on self-repairing sea walls.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Construction>3</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Sapiarch_Of_Transmutation</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Sapiarch_Of_Transmutation</identifier>
+        <slot>Adulthood</slot>
+        <title>Sapiarch of Transmutation</title>
+        <titleShort>Transmuter</titleShort>
+        <description>One of [PAWN_nameDef]'s early experiments turned a bucket of iron nails into slightly worse iron nails. The later ones were good enough to get expelled over.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Psijic_Correspondent</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Psijic_Correspondent</identifier>
+        <slot>Adulthood</slot>
+        <title>Psijic correspondent</title>
+        <titleShort>Correspondent</titleShort>
+        <description>Letters from Artaeum arrive rarely and do not bother with a reason. [PAWN_nameDef] was among the few mages still receiving them, and never admitted to sending any back.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_College_Of_Sapiarchs_Lecturer</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_College_Of_Sapiarchs_Lecturer</identifier>
+        <slot>Adulthood</slot>
+        <title>College of Sapiarchs lecturer</title>
+        <titleShort>Lecturer</titleShort>
+        <description>Lectures in the Crystal Tower run six hours and allow no questions. [PAWN_nameDef] considered that a generous format and regretted having to stop for meals.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Storm_Caller_Of_Cloudrest</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Storm_Caller_Of_Cloudrest</identifier>
+        <slot>Adulthood</slot>
+        <title>storm caller of Cloudrest</title>
+        <titleShort>Storm caller</titleShort>
+        <description>Cloudrest stands so high that its mages learn lightning from close range. [PAWN_nameDef] has a pale burn down one arm from the first lesson.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Lillandril_Alchemist</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Lillandril_Alchemist</identifier>
+        <slot>Adulthood</slot>
+        <title>Lillandril alchemist</title>
+        <titleShort>Alchemist</titleShort>
+        <description>Nobody in Lillandril grows old in a way they can't afford to hide. [PAWN_nameDef] brewed the remedies that made this possible and billed accordingly.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Necromancy_Inspector</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Necromancy_Inspector</identifier>
+        <slot>Adulthood</slot>
+        <title>necromancy inspector</title>
+        <titleShort>Inspector</titleShort>
+        <description>Necromancy is an embarrassing subject on Summerset, so the Dominion sends someone quietly. [PAWN_nameDef] was the one who opened the crypts and took careful notes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Ship_Mage</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Ship_Mage</identifier>
+        <slot>Adulthood</slot>
+        <title>ship-mage</title>
+        <titleShort>Ship-mage</titleShort>
+        <description>Calming seas, filling sails and setting Maormer rigging on fire made up the three chapters of [PAWN_nameDef]'s working life. Land still feels too still.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Wardsmith_Of_Dusk</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Wardsmith_Of_Dusk</identifier>
+        <slot>Adulthood</slot>
+        <title>wardsmith of Dusk</title>
+        <titleShort>Wardsmith</titleShort>
+        <description>Dusk's outer walls carry wards older than the Dominion, and each one wears thin. [PAWN_nameDef] walked the length of them yearly with a hammer and a headache.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Mages_Guild_Defector</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Mages_Guild_Defector</identifier>
+        <slot>Adulthood</slot>
+        <title>Mages Guild defector</title>
+        <titleShort>Defector</titleShort>
+        <description>Vanus Galerion left Summerset because he thought magic should be for everyone. [PAWN_nameDef] joined his Guild, then quit it for the opposite reason, and neither side forgives the turn.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Anatomist</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Anatomist</identifier>
+        <slot>Adulthood</slot>
+        <title>anatomist</title>
+        <titleShort>Anatomist</titleShort>
+        <description>[PAWN_nameDef] spent years proving that Altmer and Men were built on a different plan. The dissections proved something else, and the paper went unpublished.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <workDisables>ManualDumb</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Dominion_Battle_Healer</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Dominion_Battle_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>Dominion battle-healer</title>
+        <titleShort>Battle-healer</titleShort>
+        <description>Field hospitals in the Great War took in the wounded by the wagonload. [PAWN_nameDef] sorted them by who could still fight, which is the part nobody writes about.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>7</Medicine>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Illusion_Tutor</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Illusion_Tutor</identifier>
+        <slot>Adulthood</slot>
+        <title>illusion tutor</title>
+        <titleShort>Tutor</titleShort>
+        <description>Rich children paid [PAWN_nameDef] to teach them how to look taller and wiser at a party. Oddly, none of them ever needed to be taught to look bored.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>4</Artistic>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Conjurer_Of_The_Sixth_Order</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Conjurer_Of_The_Sixth_Order</identifier>
+        <slot>Adulthood</slot>
+        <title>conjurer of the Sixth Order</title>
+        <titleShort>Conjurer</titleShort>
+        <description>Summoning a Daedra is simple, as [PAWN_nameDef] will happily explain. What takes study is getting the thing to go back afterward.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Court_Astrologer</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Court_Astrologer</identifier>
+        <slot>Adulthood</slot>
+        <title>court astrologer</title>
+        <titleShort>Astrologer</titleShort>
+        <description>Royal births, dull weddings and the sailing of the fleet all waited on [PAWN_nameDef]'s charts. The stars tended to agree with whoever paid for the reading.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Artistic>2</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Ayleid_Scholar</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Ayleid_Scholar</identifier>
+        <slot>Adulthood</slot>
+        <title>Ayleid scholar</title>
+        <titleShort>Ayleid scholar</titleShort>
+        <description>[PAWN_nameDef] spent decades in Cyrodiil's ruins, translating Ayleid inscriptions and insisting that the builders were simply misunderstood. Few people asked the slaves.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Alinor_Archmages_Apprentice</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Alinor_Archmages_Apprentice</identifier>
+        <slot>Adulthood</slot>
+        <title>Alinor archmage's apprentice</title>
+        <titleShort>Apprentice</titleShort>
+        <description>For forty years, [PAWN_nameDef] served as apprentice to one archmage, a span that included a lot of soup. The old mer did eventually teach a spell or two.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Cooking>2</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Enchanter_Of_Swan_Ships</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Enchanter_Of_Swan_Ships</identifier>
+        <slot>Adulthood</slot>
+        <title>enchanter of swan ships</title>
+        <titleShort>Enchanter</titleShort>
+        <description>Each swan ship carries enchantments worked into the wood during building. [PAWN_nameDef] signed them all in a small script hidden below the waterline.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Shimmerene_Dyer</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Shimmerene_Dyer</identifier>
+        <slot>Adulthood</slot>
+        <title>Shimmerene dyer</title>
+        <titleShort>Dyer</titleShort>
+        <description>Fine robes from Shimmerene are a very particular shade of gold. [PAWN_nameDef]'s family held the recipe and hands stained to the wrist in proof.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Firsthold_Vineyard_Steward</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Firsthold_Vineyard_Steward</identifier>
+        <slot>Adulthood</slot>
+        <title>Firsthold vineyard steward</title>
+        <titleShort>Steward</titleShort>
+        <description>No bottle left a Firsthold vineyard without a seal, and no seal was granted until [PAWN_nameDef] had tasted it and scowled. Scowling was part of the title.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Crystal_Tower_Gardener</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Crystal_Tower_Gardener</identifier>
+        <slot>Adulthood</slot>
+        <title>Crystal Tower gardener</title>
+        <titleShort>Gardener</titleShort>
+        <description>Gardens surrounding the Crystal Tower have been laid out to a plan older than the Empire. [PAWN_nameDef] once moved a hedge by a hand's width and was formally warned.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Lillandril_Wine_Merchant</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Lillandril_Wine_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>Lillandril wine merchant</title>
+        <titleShort>Vintner</titleShort>
+        <description>Selling wine to a Canonreeve means pretending the year matters more than the price. [PAWN_nameDef] could keep that up through nine courses.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Cooking>3</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Genealogist</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Genealogist</identifier>
+        <slot>Adulthood</slot>
+        <title>genealogist</title>
+        <titleShort>Genealogist</titleShort>
+        <description>Marriages on Summerset need a clean lineage, and a clean lineage can be found for a fee. [PAWN_nameDef] found them often and kept the real records in a locked box.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Harbor_Master</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Harbor_Master</identifier>
+        <slot>Adulthood</slot>
+        <title>harbor master</title>
+        <titleShort>Harbor master</titleShort>
+        <description>Merchants, smugglers and admirals all answer to the tide tables, and thus to [PAWN_nameDef]. A dock at Alinor is a small kingdom with worse smells.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>2</Intellectual>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Master_Glassblower</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Master_Glassblower</identifier>
+        <slot>Adulthood</slot>
+        <title>master glassblower</title>
+        <titleShort>Glassblower</titleShort>
+        <description>Vases from [PAWN_nameDef]'s workshop were so thin that customers were afraid to breathe near them. Many of them broke anyway, which was good for repeat business.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Shipyard_Carpenter</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Shipyard_Carpenter</identifier>
+        <slot>Adulthood</slot>
+        <title>shipyard carpenter</title>
+        <titleShort>Carpenter</titleShort>
+        <description>There are no straight lines on a Summerset ship. [PAWN_nameDef] worked by eye for sixty years, and could spot a wrong curve from across the slip.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>6</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Ceremonial_Cook</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Ceremonial_Cook</identifier>
+        <slot>Adulthood</slot>
+        <title>ceremonial cook</title>
+        <titleShort>Cook</titleShort>
+        <description>Banquets on Alinor can last for days and include a course meant only to be looked at. [PAWN_nameDef] cooked it anyway, with full attention.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Dominion_Tax_Assessor</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Dominion_Tax_Assessor</identifier>
+        <slot>Adulthood</slot>
+        <title>Dominion tax assessor</title>
+        <titleShort>Assessor</titleShort>
+        <description>Bosmer villages have wonderfully creative accounts. [PAWN_nameDef] walked through a great many of them with a ledger and two armed friends.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Tapestry_Weaver</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Tapestry_Weaver</identifier>
+        <slot>Adulthood</slot>
+        <title>tapestry weaver</title>
+        <titleShort>Weaver</titleShort>
+        <description>An entire tapestry cycle on the fall of Aldmeris occupied [PAWN_nameDef] for most of a century. The last panel ran short of blue, and it remains a sore subject.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>5</Artistic>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Retired_Courtesan</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Retired_Courtesan</identifier>
+        <slot>Adulthood</slot>
+        <title>retired courtesan</title>
+        <titleShort>Courtesan</titleShort>
+        <description>Forty years of secrets were told to [PAWN_nameDef] by mer who assumed nobody was listening. Retirement came with a pension and nobody asked why.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Auridon_Quarry_Foreman</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Auridon_Quarry_Foreman</identifier>
+        <slot>Adulthood</slot>
+        <title>Auridon quarry foreman</title>
+        <titleShort>Foreman</titleShort>
+        <description>White marble for half of Alinor came out of [PAWN_nameDef]'s quarry. The other half came from competitors, about whom there was much to say.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>6</Mining>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Sunhold_Horse_Breeder</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Sunhold_Horse_Breeder</identifier>
+        <slot>Adulthood</slot>
+        <title>Sunhold horse breeder</title>
+        <titleShort>Breeder</titleShort>
+        <description>Bloodlines mean as much in the stable as in the great house. [PAWN_nameDef] kept better records on the horses, and frankly liked them more.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>7</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Physician_To_The_Old</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Physician_To_The_Old</identifier>
+        <slot>Adulthood</slot>
+        <title>physician to the old</title>
+        <titleShort>Physician</titleShort>
+        <description>Altmer can live very long and complain the whole time. [PAWN_nameDef] treated the oldest families of Lillandril and heard every complaint, some of them twice.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Temple_Cantor</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Temple_Cantor</identifier>
+        <slot>Adulthood</slot>
+        <title>temple cantor</title>
+        <titleShort>Cantor</titleShort>
+        <description>Hymns to Auri-El are older than the temple walls, and [PAWN_nameDef] sang them in the same key every day for eighty years. Nobody ever noticed one small improvement.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>5</Artistic>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Thalmor_Clerk</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Thalmor_Clerk</identifier>
+        <slot>Adulthood</slot>
+        <title>Thalmor clerk</title>
+        <titleShort>Clerk</titleShort>
+        <description>Arrest orders must be filed in triplicate. [PAWN_nameDef] never hurt anyone directly, as [PAWN_pronoun] liked to mention, and had very tidy handwriting.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Salache_Fisherman</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Salache_Fisherman</identifier>
+        <slot>Adulthood</slot>
+        <title>Salache fisherman</title>
+        <titleShort>Fisherman</titleShort>
+        <description>Salache like [PAWN_nameDef] have kept Auridon fed since before the Dominion and been thanked for it about as often. The catch still comes in at dawn.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>4</Cooking>
+            <Crafting>3</Crafting>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Exile_Bookseller</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Exile_Bookseller</identifier>
+        <slot>Adulthood</slot>
+        <title>exile bookseller</title>
+        <titleShort>Bookseller</titleShort>
+        <description>Certain histories can no longer be printed on Summerset, so [PAWN_nameDef] sold them out of a shop in Wayrest. Thalmor visits were polite and came twice a year.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Altmer_Adult_Arbiter_Of_Manners</defName>
+        <identifier>ESCP_Backstory_Altmer_Adult_Arbiter_Of_Manners</identifier>
+        <slot>Adulthood</slot>
+        <title>arbiter of manners</title>
+        <titleShort>Arbiter</titleShort>
+        <description>An insult at court may require weeks of study to fully appreciate. Families hired [PAWN_nameDef] to tell them whether they had been insulted, and how badly.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Altmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

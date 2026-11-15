@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IncidentDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_ThalmorJusticiars</defName>
+        <label>Thalmor justiciars</label>
+        <category>Misc</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>ESCP.Factions.IncidentWorker_HereticDemand</workerClass>
+        <baseChance>0.5</baseChance>
+        <minRefireDays>30</minRefireDays>
+        <earliestDay>15</earliestDay>
+        <letterLabel>Thalmor justiciars</letterLabel>
+        <letterText>A pair of Thalmor justiciars has come to the colony with a writ. The White-Gold Concordat forbids the worship of Talos, and they have heard that {PAWN_nameDef} still keeps the old faith.\n\nThey want {PAWN_objective} handed over for questioning. Few people the justiciars take for questioning are seen again.\n\nIf you refuse, {FACTION_name} will count the colony as an enemy and send soldiers to take {PAWN_objective} by force.</letterText>
+        <letterDef>ESCP_HereticDemand</letterDef>
+        <modExtensions>
+            <li Class="ESCP.Factions.HereticDemandExtension">
+                <faction>ESCP_Faction_Thalmor</faction>
+                <memes>
+                    <li>ESCP_Meme_NineDivines</li>
+                    <li>ESCP_Structure_OriginDivinesNine</li>
+                </memes>
+                <handOverGoodwill>15</handOverGoodwill>
+                <rescueQuest>ESCP_Quest_Thalmor_EmbassyRescue</rescueQuest>
+                <handOverLabel>Hand over {PAWN_nameDef}</handOverLabel>
+                <handOverText>The justiciars put {PAWN_nameDef} in irons and lead {PAWN_objective} away toward the nearest Thalmor embassy. {FACTION_name} is pleased with your cooperation.</handOverText>
+                <refuseLabel>Turn them away</refuseLabel>
+                <refuseText>The justiciars leave without {PAWN_nameDef}, and they leave angry. {FACTION_name} now counts the colony among the enemies of the Dominion, and its soldiers are already on the road.</refuseText>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
+</Defs>
