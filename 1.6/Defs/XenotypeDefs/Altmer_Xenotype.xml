@@ -15,6 +15,13 @@
             <li>PsychicAbility_Enhanced</li>
             <li>Beard_NoBeardOnly</li>
         </genes>
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <modifiedExpectations>true</modifiedExpectations>
+                <expectationOffset>1</expectationOffset>
+                <leatherDef>ESCP_LeatherAltmer</leatherDef>
+            </li>
+        </modExtensions>
     </XenotypeDef>
 
 </Defs>

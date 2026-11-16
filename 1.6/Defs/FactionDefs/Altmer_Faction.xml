@@ -196,6 +196,32 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ESCP_Enlistment_AldmeriDominion</li>
+                </enlistOptionsDefs>
+            </li>
+            <li Class="ESCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>ESCP_RankTrack_AldmeriDominion</li>
+                </rankTracks>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Alinor</li>
+                    <li>Cloudrest</li>
+                    <li>Skywatch</li>
+                    <li>Lillandril</li>
+                    <li>Shimmerene</li>
+                    <li>Sunhold</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>AridShrubland</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
         </modExtensions>
     </FactionDef>
 

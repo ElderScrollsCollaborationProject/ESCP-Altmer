@@ -188,6 +188,32 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Thalmor Embassy</li>
+                    <li>Northwatch Keep</li>
+                    <li>Firsthold</li>
+                    <li>Dusk</li>
+                    <li>Traitor's Tor</li>
+                    <li>Sil-Var-Woad</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>BorealForest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+            <li Class="ESCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ESCP_Enlistment_Thalmor</li>
+                </enlistOptionsDefs>
+            </li>
+            <li Class="ESCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>ESCP_RankTrack_Thalmor</li>
+                </rankTracks>
+            </li>
         </modExtensions>
     </FactionDef>
 
